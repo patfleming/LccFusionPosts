@@ -4,6 +4,7 @@ classes: wide
 toc: false
 date: 2025-11-20
 author_profile: true
+
 date: 2025-11-20
 
 title: "LCC Fusion Podcast – Cards & Node Basics"
@@ -12,8 +13,8 @@ categories: [LCC Fusion Project, Podcast]
 tags: [podcasts]
 
 gallery:
-  - url: /assets/podcasts/images/Cards_Node_Basics.jpg
-    image_path:  /assets/podcasts/images/Cards_Node_Basics.jpg/
+  - url: /assets/podcasts/images/posters/Cards_Node_Basics.jpg
+    image_path:  /assets/podcasts/images/posters/Cards_Node_Basics.jpg
     alt: "Presentation"
     title: "Cards & Basics (refer to Resources section for full presentation)"
 ---
@@ -28,7 +29,9 @@ We also look at how these fit the needs of **planners**, **builders**, **install
 
 ## Watch the Podcast
 
-- [LCC Fusion Podcast – Cards & Node Basics (video)](https://youtu.be/TdUUSL-4by8)
+- [LCC Fusion Podcast – Cards & Node Basics (video, 23 min)](https://youtu.be/jkG8zyAt2eU){:target="_blank" rel="noopener"}
+
+{% include ai_notice.html %}
 
 ## What this episode covers
 
@@ -69,10 +72,6 @@ Stay tuned!
 - Documentation: https://patfleming.github.io/LccFusionProject/
 - GitHub Repository: https://github.com/patfleming/LccFusionProject
 
-- [Download slides (PPT)]({{ site.baseurl }}/assets/podcasts/LCC_Fusion_Cards_Node_Basics.ppt) 
+- **LCC Fusion Podcasts Playlist:** https://www.youtube.com/playlist?list=PLg49NFDgDCLRS7j30iTitaWUlfIdiw0Wx
 
----
-
-## Feedback
-
-If you have suggestions for future podcast topics—such as breakout boards, power distribution, or configuration tools—feel free to open an issue on the LCC Fusion GitHub repo or leave a comment where you discovered this post.
+- [Download presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/LCC_Fusion_Cards_Node_Basics.ppt)
