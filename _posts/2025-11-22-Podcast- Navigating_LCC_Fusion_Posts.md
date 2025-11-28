@@ -12,8 +12,8 @@ categories: [LCC Fusion Project, Podcast]
 tags: [podcasts, navigation, website, walkthrough]
 
 gallery:
-  - url: /assets/podcasts/images/Posts_Site.jpg
-    image_path: /assets/podcasts/images/posters/Posts_Site.jpg
+  - url: /assets/podcasts/images/LCC_Fusion_Posts_Web.jpg
+    image_path: /assets/podcasts/images/posters/LCC_Fusion_Posts_Web.jpg
     alt: "LCC Fusion Posts"
     title: "LCC Fusion Posts"
 

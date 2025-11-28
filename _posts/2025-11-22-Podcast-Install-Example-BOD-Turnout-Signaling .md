@@ -12,12 +12,7 @@ categories: [LCC Fusion Project, Podcast]
 tags: [podcasts, installation, detection, signals, turnouts]
 
 gallery:
-  - url: /assets/podcasts/images/Node_Card.jpg
-    image_path: /assets/podcasts/images/posters/Node_Card.jpg
-    alt: "Node Card"
-    title: "Node Card"
-
-  - url: /assets/podcasts/images/BOD_Card.jpg
+  - url: /assets/podcasts/images/posters/BOD_Card.jpg
     image_path: /assets/podcasts/images/posters/BOD_Card.jpg
     alt: "BOD Card"
     title: "BOD Card"

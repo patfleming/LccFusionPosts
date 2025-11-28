@@ -12,21 +12,6 @@ categories: [LCC Fusion Project, Podcast]
 tags: [podcasts, architecture, node, iocards, breakoutboards]
 
 gallery:
-  - url: /assets/podcasts/images/Node_Card.jpg
-    image_path: /assets/podcasts/images/Node_Card.jpg
-    alt: "Node Card"
-    title: "Node Card"
-
-  - url: /assets/podcasts/images/Hub.jpg
-    image_path: /assets/podcasts/images/Hub.jpg
-    alt: "Node Bus Hub"
-    title: "Node Bus Hub"
-
-  - url: /assets/podcasts/images/IO_Cards.jpg
-    image_path: /assets/podcasts/images/IO_Cards.jpg
-    alt: "I/O Cards"
-    title: "I/O Cards"
-
   - url: /assets/podcasts/images/Breakouts.jpg
     image_path: /assets/podcasts/images/Breakouts.jpg
     alt: "Breakout Boards"
