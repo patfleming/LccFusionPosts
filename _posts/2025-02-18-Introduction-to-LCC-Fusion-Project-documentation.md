@@ -15,7 +15,7 @@ As the creator of the **LCC Fusion Project**, I set out to build not just a powe
 
 But does it actually succeed? Let’s take a deep dive into how this documentation supports DIY users in bringing **LCC automation** to their projects—starting with building an **LCC Node to control signaling.**
 
-*(Watch our short YouTube video on navigating the documentation here: [link TBD])*
+[LCC Fusion Project Documentation](https://patfleming.github.io/LccFusionProject/)
 
 ## Structuring the Documentation for DIY Users
 
@@ -71,5 +71,8 @@ So, did I succeed in creating documentation that **actually helps users?** I bel
 
 This project started with me **learning electronics and PCB design from scratch**, and now it’s a resource for others—**model railroaders who want advanced automation on their layouts as DIYers.** If you’re looking to explore **LCC automation** with **clear, structured guidance**, this documentation is designed to **help you succeed.**
 
-*And speaking of first projects—stay tuned for our next post, where we’ll put this guide to the test by designing and assembling an LCC Node PCB.*
+## 📂 Documentation Website
+
+- [LCC Fusion Documentation](https://patfleming.github.io/LccFusionProject/)
+- [Understanding LCC Fusion](https://patfleming.github.io/LccFusionProject/fusion-understanding)
 

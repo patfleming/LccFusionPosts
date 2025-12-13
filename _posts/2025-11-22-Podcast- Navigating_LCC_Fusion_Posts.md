@@ -33,7 +33,7 @@ and make the most of this part of the Fusion ecosystem.
 
 ## Watch the Podcast
 
-- *[Fusion Hardware Architecture Overview (video, 14 min)](https://youtu.be/XwmE2_AUE_E){:target="_blank" rel="noopener"} 
+- [Fusion Hardware Architecture Overview (video, 14 min)](https://youtu.be/XwmE2_AUE_E){:target="_blank" rel="noopener"} 
 
 {% include ai_notice.html %}
 
@@ -96,14 +96,6 @@ The podcast highlights a smooth workflow:
 
 The Posts site serves as a bridge between the videos and the documentation,  
 helping you learn the Fusion system at your own pace.
-
----
-
-## 📄 Podcast Slides & Dialog
-
-The full slide deck and complete dialog for this episode are included below.
-
-*(You will insert these once your PPT and script are finalized.)*
 
 ---
 
