@@ -1,0 +1,20 @@
+.reveal .slides section > :not(img):not(video):not(canvas) {
+  position: absolute !important;
+  left: 50% !important;
+  bottom: 5% !important;
+  transform: translateX(-50%) !important;
+
+  width: 88% !important;
+  max-width: 1100px !important;
+
+  background: rgba(0,0,0,0.55) !important;
+  color: #fff !important;
+
+  padding: 18px 22px !important;
+  border-radius: 14px !important;
+
+  z-index: 9999 !important;
+
+  text-align: center !important;
+  line-height: 1.25 !important;
+}
