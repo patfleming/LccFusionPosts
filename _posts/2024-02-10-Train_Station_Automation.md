@@ -4,6 +4,7 @@ classes: wide
 toc: false
 date: 2025-11-20
 author_profile: true
+permalink: /:slug/
 
 title: "Revolutionizing Model Railroads: The Power of LCC in Train Station Automation"
 

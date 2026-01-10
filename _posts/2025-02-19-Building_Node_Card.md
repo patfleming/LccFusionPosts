@@ -4,6 +4,7 @@ classes: wide
 toc: false
 date: 2025-11-20
 author_profile: true
+permalink: /:slug/
 
 title: "Building The LCC Fusion Node Card"
 excerpt: "A detailed walkthrough for assembling the LCC Fusion Node Card, from ordering the PCB to verifying the final build."

@@ -3,7 +3,7 @@ description              : "LCC Fusion Posts is a DIY project providing hardware
 url                      : https://patfleming.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/LccFusionPosts"
 repository: "patfleming/LccFusionPosts"
-permalink                : /:categories/:title/
+permalink                : /:title/
 name                     : "Pat Fleming"
 
 remote_theme           : "mmistakes/minimal-mistakes"

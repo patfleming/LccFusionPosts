@@ -3,6 +3,8 @@ layout: posts
 classes: wide
 toc: false
 author_profile: true
+permalink: /:slug/
+
 
 date: 2025-12-13
 
