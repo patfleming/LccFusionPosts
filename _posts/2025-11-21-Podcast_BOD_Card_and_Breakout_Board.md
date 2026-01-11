@@ -1,14 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-author_profile: true
-permalink: /:slug/
+title: "LCC Fusion Podcast – BOD Card & Breakout Board"
+excerpt: "Train detection with the Block Occupancy Detection (BOD) Card and its Breakout Board"
 
 date: 2025-11-21
 
-title: "LCC Fusion Podcast – BOD Card & Breakout Board"
-excerpt: "Train detection with the Block Occupancy Detection (BOD) Card and its Breakout Board"
 categories: [LCC Fusion Project, Podcast]
 tags: [podcasts, detection, bod]
 

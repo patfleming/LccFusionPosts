@@ -1,14 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-author_profile: true
-permalink: /:slug/
+title: "LCC Fusion Podcast – Navigating the LCC Fusion Posts Site"
+excerpt: "A guided tour of the LCC Fusion Posts website — how updates, tips, and podcast episodes work together as part of the Fusion ecosystem."
 
 date: 2025-11-23
 
-title: "LCC Fusion Podcast – Navigating the LCC Fusion Posts Site"
-excerpt: "A guided tour of the LCC Fusion Posts website — how updates, tips, and podcast episodes work together as part of the Fusion ecosystem."
 categories: [LCC Fusion Project, Podcast]
 tags: [podcasts, navigation, website, walkthrough]
 

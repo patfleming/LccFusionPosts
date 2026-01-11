@@ -1,14 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-author_profile: true
-permalink: /:slug/
+title: "Tooling Holes: Designing DIY SMD Reflow for Accuracy, Cost, and Repeatability"
+excerpt: "How tooling holes and push-pin registration make stencil alignment fast, accurate, and affordable—enabling repeatable DIY SMD reflow without frames or full-size stencils."
 
 date: 2026-01-10
 
-title: "Tooling Holes: Designing DIY SMD Reflow for Accuracy, Cost, and Repeatability"
-excerpt: "How tooling holes and push-pin registration make stencil alignment fast, accurate, and affordable—enabling repeatable DIY SMD reflow without frames or full-size stencils."
 categories: [Documentation]
 tags: [tools]
 ---

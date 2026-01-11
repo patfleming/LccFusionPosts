@@ -1,15 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-author_profile: true
-permalink: /:slug/
-
+title: "Understanding LCC Fusion – A Clear On-Ramp into LCC-Based Layout Automation"
+excerpt: "A new conceptual documentation track designed to make LCC understandable before it becomes complex."
 
 date: 2025-12-13
 
-title: "Understanding LCC Fusion – A Clear On-Ramp into LCC-Based Layout Automation"
-excerpt: "A new conceptual documentation track designed to make LCC understandable before it becomes complex."
 categories: [LCC Fusion Project, Documentation]
 tags: [lcc, documentation, architecture, onboarding, fusion]
 ---

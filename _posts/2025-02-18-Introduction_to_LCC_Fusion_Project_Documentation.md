@@ -1,13 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-date: 2025-11-20
-author_profile: true
-permalink: /:slug/
-
 title: "First Impressions: Navigating the LCC Fusion Project Documentation"
 excerpt: "As the creator of the LCC Fusion Project, I built this documentation to help model railroaders and DIYers explore LCC automation—even if they’re new to electronics, PCBs, and firmware. Here’s how it performs."
+
+date: 2025-11-20
+
 categories: [LCC Fusion Project, Tutorial]
 tags: [lcc, nmra, lcc fusion project, esp32, documentation]
 ---

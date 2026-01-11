@@ -1,15 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-date: 2025-11-20
-author_profile: true
-permalink: /:slug/
-
-date: 2025-11-20
-
 title: "LCC Fusion Podcast – Cards & Node Basics"
 excerpt: "A discussion of the LCC Fusion Cards including the Node Card"
+
+date: 2025-11-20
+
 categories: [LCC Fusion Project, Podcast]
 tags: [podcasts]
 

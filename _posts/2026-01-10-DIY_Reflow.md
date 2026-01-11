@@ -1,14 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-author_profile: true
-permalink: /:slug/
+title: "Lessons Learned: Making DIY SMD Reflow Predictable and Repeatable"
+excerpt: "Practical lessons learned while making DIY SMD reflow predictable and repeatable—focusing on process discipline, inspection timing, and techniques that reduce stress and rework."
 
 date: 2026-01-10
 
-title: "Lessons Learned: Making DIY SMD Reflow Predictable and Repeatable"
-excerpt: "Practical lessons learned while making DIY SMD reflow predictable and repeatable—focusing on process discipline, inspection timing, and techniques that reduce stress and rework."
 categories: [Documentation]
 tags: [tools]
 ---

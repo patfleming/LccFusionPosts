@@ -1,14 +1,9 @@
 ---
-layout: posts
-classes: wide
-toc: false
-author_profile: true
-permalink: /:slug/
+title: "LCC Fusion Podcast – Fusion Hardware Architecture Overview"
+excerpt: "A high-level walkthrough of Fusion’s tiered hardware architecture, open-source philosophy, and the modular design that makes expansion easy."
 
 date: 2025-11-22
 
-title: "LCC Fusion Podcast – Fusion Hardware Architecture Overview"
-excerpt: "A high-level walkthrough of Fusion’s tiered hardware architecture, open-source philosophy, and the modular design that makes expansion easy."
 categories: [LCC Fusion Project, Podcast]
 tags: [podcasts, architecture, node, iocards, breakoutboards]
 

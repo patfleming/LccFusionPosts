@@ -1,8 +1,5 @@
 ---
-layout: default
 title: Sitemap 
-date: 2025-11-20
-permalink: /sitemap/ 
 ---
 
 {% for post in site.posts %}

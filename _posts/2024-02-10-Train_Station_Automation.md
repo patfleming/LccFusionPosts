@@ -1,18 +1,12 @@
 ---
-layout: posts
-classes: wide
-toc: false
-date: 2025-11-20
-author_profile: true
-permalink: /:slug/
-
 title: "Revolutionizing Model Railroads: The Power of LCC in Train Station Automation"
-
 excerpt: "Discover the LCC Fusion Project's breakthrough in model railroading, where advanced LCC technology brings train stations to life. From detection to precise control over train movements and ambient sounds, learn how this project elevates the hobby by seamlessly integrating loco horns, station announcements, and automated train operations for an unprecedented level of realism."
+
+date: 2025-11-20
+toc: true
 
 categories: [LCC Fusion Project, Tutorial]
 tags: [lcc, nmra, lcc fusion project]
-
 ---
 
 # Introduction
