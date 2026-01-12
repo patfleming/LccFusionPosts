@@ -4,8 +4,8 @@ excerpt: "Train detection with the Block Occupancy Detection (BOD) Card and its 
 
 date: 2025-11-21
 
-categories: [LCC Fusion Project, Podcast]
-tags: [podcasts, detection, bod]
+categories: Podcasts
+tags: [installation, bod, turnouts, signaling]
 
 gallery:
   - url: /assets/podcasts/images/posters/BOD_Breakout_Board.jpg

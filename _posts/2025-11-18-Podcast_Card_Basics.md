@@ -4,8 +4,8 @@ excerpt: "A discussion of the LCC Fusion Cards including the Node Card"
 
 date: 2025-11-20
 
-categories: [LCC Fusion Project, Podcast]
-tags: [podcasts]
+categories: Podcasts
+tags: [architecture, io-cards, breakout-boards]
 
 gallery:
   - url: /assets/podcasts/images/posters/Cards_Node_Basics.jpg

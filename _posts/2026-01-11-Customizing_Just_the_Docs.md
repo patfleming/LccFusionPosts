@@ -3,6 +3,10 @@ title: "Customizing Just the Docs"
 excerpt: "A practical Just the Docs layout fix that stops wasting screen space and improves sidebar and content readability."
 
 date: 2026-01-11
+
+categories: Tutorials
+tags: [jekyll, theming, documentation-tooling]
+
 ---
 
 ## Introduction

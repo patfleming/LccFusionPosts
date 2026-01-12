@@ -4,8 +4,9 @@ excerpt: "How tooling holes and push-pin registration make stencil alignment fas
 
 date: 2026-01-10
 
-categories: [Documentation]
-tags: [tools]
+categories: Posts
+tags: [pcb, fabrication, design-rules]
+
 ---
 
 ## Introduction

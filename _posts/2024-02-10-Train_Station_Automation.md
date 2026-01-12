@@ -5,13 +5,14 @@ excerpt: "Discover the LCC Fusion Project's breakthrough in model railroading, w
 date: 2025-11-20
 toc: true
 
-categories: [LCC Fusion Project, Tutorial]
-tags: [lcc, nmra, lcc fusion project]
+categories: Tutorials
+tags: [automation, planning, example]
+
 ---
 
 # Introduction
 
-The LCC Fusion Project significantly enhances train station scenarios by automating numerous aspects of model railroad operations. Through LCC, it facilitates precise train detection and controls, enabling loco horn/bell warnings, and managing train speeds for realistic arrivals and departures. The system can slow down trains for stops, power them down, and trigger station-specific sounds, before eventually restarting them for departure. This detailed automation creates a more immersive and interactive model railroading experience, blending technology with traditional hobby elements for a dynamic setup.
+The LCC Fusion Project significantly enhances train station scenarios by automating numerous aspects of model railroad operations. Through  it facilitates precise train detection and controls, enabling loco horn/bell warnings, and managing train speeds for realistic arrivals and departures. The system can slow down trains for stops, power them down, and trigger station-specific sounds, before eventually restarting them for departure. This detailed automation creates a more immersive and interactive model railroading experience, blending technology with traditional hobby elements for a dynamic setup.
 
 # Resources
 

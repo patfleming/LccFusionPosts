@@ -4,8 +4,9 @@ excerpt: "Explore the LCC Fusion Project and discover how it's transforming mode
 
 date: 2025-11-20
 
-categories: [LCC Fusion Project, Tutorial]
-tags: [lcc, nmra, lcc fusion project, esp32]
+categories: Posts
+tags: [architecture, onboarding, system-design]
+
 ---
 
 # Introduction

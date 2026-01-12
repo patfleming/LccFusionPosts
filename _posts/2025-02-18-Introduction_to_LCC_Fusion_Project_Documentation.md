@@ -1,11 +1,12 @@
 ---
 title: "First Impressions: Navigating the LCC Fusion Project Documentation"
-excerpt: "As the creator of the LCC Fusion Project, I built this documentation to help model railroaders and DIYers explore LCC automation—even if they’re new to electronics, PCBs, and firmware. Here’s how it performs."
+excerpt: "As the creator of the  I built this documentation to help model railroaders and DIYers explore LCC automation—even if they’re new to electronics, PCBs, and firmware. Here’s how it performs."
 
 date: 2025-11-20
 
-categories: [LCC Fusion Project, Tutorial]
-tags: [lcc, nmra, lcc fusion project, esp32, documentation]
+categories: Posts
+tags: [onboarding, documentation-structure, usability]
+
 ---
 
 As the creator of the **LCC Fusion Project**, I set out to build not just a powerful hardware and firmware ecosystem, but also a documentation system that would make it **accessible to anyone**, even those completely new to electronics and automation. When I first started this project, I was **new to electronics, PCBs, and programming enhancements** to the existing **LCC open-source projects**. Through trial, research, and hands-on development, I built a framework that captures everything I learned—so that other **model railroaders and DIYers** looking for advanced automation can benefit from my experience.

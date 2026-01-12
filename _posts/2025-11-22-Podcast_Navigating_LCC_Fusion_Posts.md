@@ -4,8 +4,8 @@ excerpt: "A guided tour of the LCC Fusion Posts website — how updates, tips, a
 
 date: 2025-11-23
 
-categories: [LCC Fusion Project, Podcast]
-tags: [podcasts, navigation, website, walkthrough]
+categories: Podcasts
+tags: [navigation, onboarding, usability]
 
 gallery:
   - url: /assets/podcasts/images/LCC_Fusion_Posts_Web.jpg

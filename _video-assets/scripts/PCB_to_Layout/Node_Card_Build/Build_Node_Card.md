@@ -32,7 +32,7 @@ subtitles:
 
 Before we start any assembly, the first step is ordering the PCB.
 
-For the LCC Fusion Project, the Gerber files are already prepared
+For the  the Gerber files are already prepared
 and ready to upload directly to a board fabrication service.
 
 (pause: 0.6)

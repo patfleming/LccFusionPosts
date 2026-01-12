@@ -4,8 +4,9 @@ excerpt: "Practical lessons learned while making DIY SMD reflow predictable and 
 
 date: 2026-01-10
 
-categories: [Documentation]
-tags: [tools]
+categories: Posts
+tags: [pcb, reflow, assembly]
+
 ---
 
 ## Introduction

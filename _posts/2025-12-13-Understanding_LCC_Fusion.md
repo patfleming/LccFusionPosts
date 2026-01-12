@@ -4,8 +4,9 @@ excerpt: "A new conceptual documentation track designed to make LCC understandab
 
 date: 2025-12-13
 
-categories: [LCC Fusion Project, Documentation]
-tags: [lcc, documentation, architecture, onboarding, fusion]
+categories: Posts
+tags: [architecture, onboarding, system-design]
+
 ---
 
 One of the most common things we hear about LCC is not that it’s incapable —  

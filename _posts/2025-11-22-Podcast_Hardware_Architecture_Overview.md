@@ -4,8 +4,8 @@ excerpt: "A high-level walkthrough of Fusion’s tiered hardware architecture, o
 
 date: 2025-11-22
 
-categories: [LCC Fusion Project, Podcast]
-tags: [podcasts, architecture, node, iocards, breakoutboards]
+categories: Podcasts
+tags: [architecture, node-card, system-design]
 
 gallery:
   - url: /assets/podcasts/images/Breakouts.jpg

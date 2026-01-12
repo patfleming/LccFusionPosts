@@ -4,13 +4,14 @@ excerpt: "Dive into the world of Layout Command Control (LCC) and learn how this
 
 date: 2025-11-20
 
-categories: [LCC Fusion Project, Tutorial]
-tags: [lcc, nmra, lcc fusion project]
+categories: Posts
+tags: [architecture, onboarding, system-design]
+
 ---
 
 # Introduction
 
-In our latest blog post, we delve into the intricacies of NMRA Layout Command Control (LCC), a cutting-edge system designed to revolutionize model railroading. Through an engaging presentation, we explored how LCC offers a more streamlined, efficient, and flexible approach to layout automation compared to traditional methods. We covered the essentials of LCC, including its benefits for wiring, configuration, scalability, and interoperability. Furthermore, practical applications and comparisons with NMRA DCC were highlighted, showcasing LCC's potential to enhance model railroading experiences. This summary captures the essence of a transformative discussion aimed at both novice and seasoned enthusiasts eager to embrace the future of model railroad control.
+In our latest blog post, we delve into the intricacies of NMRA Layout Command Control (LCC), a cutting-edge system designed to revolutionize model railroading. Through an engaging presentation, we explored how LCC offers a more streamlined, efficient, and flexible approach to layout automation compared to traditional methods. We covered the essentials of  including its benefits for wiring, configuration, scalability, and interoperability. Furthermore, practical applications and comparisons with NMRA DCC were highlighted, showcasing LCC's potential to enhance model railroading experiences. This summary captures the essence of a transformative discussion aimed at both novice and seasoned enthusiasts eager to embrace the future of model railroad control.
 
 # Resources
 

@@ -4,8 +4,8 @@ excerpt: "Short detection and block protection using the BSD Card and the Block 
 
 date: 2025-11-22
 
-categories: [LCC Fusion Project, Podcast]
-tags: [podcasts, detection, bsd]
+categories: Podcasts
+tags: [bsd, detection, breakout-boards]
 
 gallery:
   - url: /assets/podcasts/images/posters/BSD_Card.jpg

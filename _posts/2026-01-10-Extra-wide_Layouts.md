@@ -4,8 +4,9 @@ excerpt: "Explains the architectural problems LCC Fusion was created to solve, a
 
 date: 2026-01-10
 
-categories: [LCC Fusion Project, Documentation]
-tags: [lcc, documentation, architecture, onboarding, fusion]
+categories: Posts
+tags: [layout, ui-design, theming]
+
 ---
 
 *A systems-first approach to layout automation*

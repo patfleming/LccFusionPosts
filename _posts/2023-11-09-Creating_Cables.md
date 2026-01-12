@@ -4,8 +4,8 @@ excerpt: "Unlock the full potential of your model railroad with our step-by-step
 
 date: 2025-11-20
 
-categories: [LCC Fusion Project, Tutorial]
-tags: [lcc, nmra, lcc fusion project]
+categories: Tutorials
+tags: [assembly, wiring, cabling]
 
 gallery:
   - url: /assets/presentations/Creating Cables/images/plug.jpg

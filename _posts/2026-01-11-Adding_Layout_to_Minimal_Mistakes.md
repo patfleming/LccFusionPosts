@@ -3,6 +3,10 @@ title: "Adding Layout Options to Minimal Mistakes"
 excerpt: "Shows how and why an extra-wide layout option was added to Minimal Mistakes to better support wide, reference-style content."
 
 date: 2026-01-11
+
+categories: Tutorials
+tags: [jekyll, theming, site-tooling]
+
 ---
 
 ## Introduction

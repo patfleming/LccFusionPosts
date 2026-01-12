@@ -4,8 +4,8 @@ excerpt: "A step-by-step installation walkthrough using the BOD Card, Signal PWM
 
 date: 2025-11-22
 
-categories: [LCC Fusion Project, Podcast]
-tags: [podcasts, installation, detection, signals, turnouts]
+categories: Podcasts
+tags: [installation, bod, turnouts, signaling]
 
 gallery:
   - url: /assets/podcasts/images/posters/BOD_Card.jpg
