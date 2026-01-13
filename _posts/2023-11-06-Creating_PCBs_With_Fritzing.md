@@ -6,7 +6,6 @@ date: 2025-11-20
 categories: Tutorials
 tags: [pcb, design-tools, fritzing, fabrication]
 
-
 gallery:
   - url: /assets/presentations/Fritzing for Circuits and PCBs/images/Presentation.png
     image_path:  /assets/presentations/Fritzing for Circuits and PCBs/images/Presentation-100.png
