@@ -15,7 +15,6 @@ tags:
   - board-level-power
   - system-integration
   - protection-and-isolation
-
 ---
 
 ## Why Self-Test Matters
@@ -101,13 +100,106 @@ No code needs to be exposed for the value to be clear: the system is actively ch
 
 ---
 
+## Concrete Examples of Implemented Self-Tests
+
+The self-test framework is not theoretical. It is built around concrete,
+repeatable checks that validate whether the physical hardware behaves the way
+the firmware expects.
+
+Below are representative examples of self-tests that are implemented today.
+
+
+### GPIO Line Sanity Testing
+
+One of the most common DIY PCB failure modes is incorrect GPIO behavior:
+a line that floats, a pin that is shorted, or a signal that never reaches a
+valid logic level.
+
+The self-test explicitly validates GPIO line behavior by exercising each pin
+and observing how it responds.
+
+The firmware can determine whether a pin is:
+
+- Floating (no pull-up or pull-down present)
+- Stuck low (shorted to ground)
+- Stuck high (shorted to VCC)
+- Responding normally when driven and released
+
+This allows the system to report *why* a pin is failing, not just that it failed.
+
+### Detecting Floating Inputs
+
+Many signal lines are expected to settle into a known idle state when released.
+A floating input typically indicates:
+
+- a missing resistor
+- an unconnected cable
+- a breakout board that is not present
+
+During self-test, the firmware briefly drives the pin, releases it, and then
+checks whether it settles to a stable logic level. If the pin does not settle,
+the condition is flagged as a floating input.
+
+This single test catches a large percentage of wiring and assembly errors.
+
+### Detecting Shorts to Ground or Power
+
+A pin that is permanently asserted is just as problematic as one that floats.
+
+By configuring and sampling the pin under controlled conditions, the self-test
+can detect when a line is:
+
+- hard-shorted to ground
+- hard-shorted to a supply rail
+
+Rather than producing a generic failure, the test output indicates the *type*
+of fault detected, allowing troubleshooting to focus on soldering or wiring
+instead of firmware.
+
+### I²C Line Validation (SDA and SCL)
+
+I²C buses are particularly sensitive to missing pull-ups and wiring faults.
+
+The self-test treats SDA and SCL as special cases and validates that:
+
+- the line rises when released
+- pull-ups are present
+- the line is not shorted low
+
+This allows the firmware to distinguish between:
+
+- an I²C device that is not responding
+- an I²C bus that is electrically misconfigured
+
+In practice, this frequently surfaces missing pull-ups or miswired breakout
+boards before higher-level communication tests even begin.
+
+### Pin-Role–Aware Testing
+
+Not all pins are tested the same way.
+
+Each self-test invocation includes the *expected role* of the pin
+(generic GPIO, I²C SDA, I²C SCL, etc.). The test logic adapts accordingly.
+
+This prevents false positives and ensures the results reflect design intent,
+not just raw electrical behavior.
+
+### Human-Readable Diagnostic Output
+
+A deliberate design decision is that self-test results are reported using
+clear, human-readable messages.
+
+The output is intended to be understandable by builders and installers without
+schematics or source code open. Each message points toward a likely physical
+cause: wiring, soldering, missing components, or incorrect configuration.
+
+This turns self-testing into a practical workflow tool, not a developer-only aid.
+
+---
+
 ## Knowing What’s Connected
 
-Reliable self-testing depends on more than electrical measurements—it also
-depends on knowing what hardware is expected to be present. In LCC Fusion,
-plug-in boards can identify themselves electronically, allowing the system to
-adjust its tests based on the actual cards and ICs installed. This avoids false
-errors and enables true plug-and-play behavior without manual configuration.
+Reliable self-testing depends on more than electrical measurements—it also depends on knowing what hardware is expected to be present. In LCC Fusion, plug-in boards can identify themselves electronically, allowing the system to adjust its tests based on the actual cards and ICs installed. This avoids false errors and enables true plug-and-play behavior without manual configuration.
 
 ---
 
