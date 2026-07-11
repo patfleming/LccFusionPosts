@@ -3,6 +3,7 @@ title: "Why LCC Fusion Exists"
 excerpt: "Explains the architectural problems LCC Fusion was created to solve, and why a systems-first approach matters before wiring, configuration, or hardware choices."
 
 date: 2026-01-10
+published: false
 
 categories: Posts
 tags: [layout, ui-design, theming]

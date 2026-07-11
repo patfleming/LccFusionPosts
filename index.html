@@ -2,9 +2,10 @@
 title: "Welcome to LCC Fusion"
 layout: "home"
 author_profile: true
+hide_auto_posts: true
 
 pagination:
-  enabled: true
+  enabled: false
 sidebar:
   nav: "main"
 header:
@@ -23,12 +24,71 @@ feature_row:
 {% include feature_row %}
 
 <section>
-  <h2>Recent Posts</h2>
-  {% for post in paginator.posts limit:5 %}
+  <h2>Start Here</h2>
+  <p>LCC Fusion is easiest to understand when the posts are treated as a guided map, not just a date-ordered blog.</p>
+  <ul>
+    <li><a href="{{ site.baseurl }}/why-lcc-fusion-exists/">Why LCC Fusion Exists</a></li>
+    <li><a href="{{ site.baseurl }}/understanding-lcc-fusion/">Understanding LCC Fusion</a></li>
+    <li><a href="{{ site.baseurl }}/podcast-hardware-architecture-overview/">Hardware Architecture Overview Podcast</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Explore By Topic</h2>
+
+  <h3>Concepts and Architecture</h3>
+  <ul>
+    <li><a href="{{ site.baseurl }}/from-observations-to-automation/">From Observations to Automation</a></li>
+    <li><a href="{{ site.baseurl }}/firmware-at-scale/">Firmware at Scale</a></li>
+    <li><a href="{{ site.baseurl }}/implementing-distributed-power/">Implementing Distributed Power</a></li>
+  </ul>
+
+  <h3>Build and Install</h3>
+  <ul>
+    <li><a href="{{ site.baseurl }}/building-node-card/">Building The LCC Fusion Node Card</a></li>
+    <li><a href="{{ site.baseurl }}/creating-cables/">Creating Cables for Plug & Play Layout Automation</a></li>
+    <li><a href="{{ site.baseurl }}/podcast-install-example-bod-turnout-signaling/">Installation Example: Detection, Signals & Turnouts</a></li>
+  </ul>
+
+  <h3>Hardware and Testing</h3>
+  <ul>
+    <li><a href="{{ site.baseurl }}/built-in-self-testing/">Built-In Self-Testing</a></li>
+    <li><a href="{{ site.baseurl }}/podcast-bod-card-and-breakout-board/">BOD Card & Breakout Board Podcast</a></li>
+    <li><a href="{{ site.baseurl }}/podcast-bsd-card-and-breakout-board/">BSD Card & Block Breakout Board Podcast</a></li>
+  </ul>
+
+  <h3>Project and Documentation</h3>
+  <ul>
+    <li><a href="{{ site.baseurl }}/podcast-navigating-lcc-fusion-posts/">Navigating the LCC Fusion Posts Site</a></li>
+    <li><a href="{{ site.baseurl }}/introduction-to-lcc-fusion-project-documentation/">Navigating the LCC Fusion Project Documentation</a></li>
+    <li><a href="{{ site.baseurl }}/customizing-just-the-docs/">Customizing Just the Docs</a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Latest Articles</h2>
+  {% assign article_count = 0 %}
+  {% for post in site.posts %}
+    {% unless post.categories contains 'Podcasts' %}
+      {% if article_count < 5 %}
+        <article>
+          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt }}</p>
+        </article>
+        {% assign article_count = article_count | plus: 1 %}
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</section>
+
+<section>
+  <h2>Latest Podcasts</h2>
+  {% assign podcast_posts = site.posts | where_exp: "post", "post.categories contains 'Podcasts'" %}
+  {% for post in podcast_posts limit:5 %}
     <article>
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt }}</p>
     </article>
   {% endfor %}
+  <p><a href="{{ site.baseurl }}/podcasts/" class="btn btn--primary">View all podcasts</a></p>
 </section>
-

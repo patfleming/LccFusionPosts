@@ -3,9 +3,9 @@ title: "Podcasts"
 ---
 
 <section>
+  <p>Podcast posts collect the video, slides, notes, and related article context for LCC Fusion topics.</p>
   <ul>
-    {% assign all_posts = site.posts | sort: "slug" %}
-    {% assign podcast_posts = all_posts | where_exp: "post", "post.categories contains 'Podcast'" %}
+    {% assign podcast_posts = site.posts | where_exp: "post", "post.categories contains 'Podcasts'" %}
     {% for post in podcast_posts %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
