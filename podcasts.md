@@ -9,6 +9,7 @@ title: "Podcasts"
     {% for post in podcast_posts %}
       <li>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br>
+        {% if post.series %}<small>{{ post.series }}</small><br>{% endif %}
         <small>{{ post.excerpt }}</small>
       </li>
     {% endfor %}

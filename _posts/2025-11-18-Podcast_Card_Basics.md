@@ -1,6 +1,9 @@
 ---
-title: "LCC Fusion Podcast – Cards & Node Basics"
+title: "Cards & Node Basics"
 excerpt: "A discussion of the LCC Fusion Cards including the Node Card"
+
+content_type: podcast
+series: "LCC Fusion Podcast"
 
 date: 2025-11-20
 

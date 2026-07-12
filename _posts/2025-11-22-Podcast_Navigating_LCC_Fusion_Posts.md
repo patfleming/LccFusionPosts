@@ -1,6 +1,9 @@
 ---
-title: "LCC Fusion Podcast – Navigating the LCC Fusion Posts Site"
+title: "Navigating the LCC Fusion Posts Site"
 excerpt: "A guided tour of the LCC Fusion Posts website — how updates, tips, and podcast episodes work together as part of the Fusion ecosystem."
+
+content_type: podcast
+series: "LCC Fusion Podcast"
 
 date: 2025-11-23
 

@@ -1,6 +1,9 @@
 ---
-title: "LCC Fusion Podcast – BSD Card & Block Breakout Board"
+title: "BSD Card & Block Breakout Board"
 excerpt: "Short detection and block protection using the BSD Card and the Block Breakout Board"
+
+content_type: podcast
+series: "LCC Fusion Podcast"
 
 date: 2025-11-22
 

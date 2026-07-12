@@ -1,6 +1,9 @@
 ---
-title: "LCC Fusion Podcast – Fusion Hardware Architecture Overview"
+title: "Fusion Hardware Architecture Overview"
 excerpt: "A high-level walkthrough of Fusion’s tiered hardware architecture, open-source philosophy, and the modular design that makes expansion easy."
+
+content_type: podcast
+series: "LCC Fusion Podcast"
 
 date: 2025-11-22
 

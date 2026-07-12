@@ -1,6 +1,9 @@
 ---
-title: "LCC Fusion Podcast – Installation Example: Detection, Signals & Turnouts"
+title: "Installation Example: Detection, Signals & Turnouts"
 excerpt: "A step-by-step installation walkthrough using the BOD Card, Signal PWM Card, and Turnout Card — all tied together through the Node Card."
+
+content_type: podcast
+series: "LCC Fusion Podcast"
 
 date: 2025-11-22
 
