@@ -72,4 +72,4 @@ Stay tuned!
 
 - **LCC Fusion Podcasts Playlist:** https://www.youtube.com/playlist?list=PLg49NFDgDCLRS7j30iTitaWUlfIdiw0Wx
 
-- [Download presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/LCC_Fusion_Cards_Node_Basics.ppt)
+- [Download presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/getting-started-series/cards-node-basics/src/LCC_Fusion_Cards_Node_Basics.ppt)

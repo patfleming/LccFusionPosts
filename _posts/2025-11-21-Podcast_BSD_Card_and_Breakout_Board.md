@@ -115,9 +115,9 @@ The BSD Card and Block Breakout Board together form a **robust**, **scalable**, 
   
 - **LCC Fusion Podcasts Playlist:** https://www.youtube.com/playlist?list=PLg49NFDgDCLRS7j30iTitaWUlfIdiw0Wx
   
-- [Download BSD Card presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/BSD_Card.pptx)
+- [Download BSD Card presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/pcb-build-it-series/BSD_Card/src/BSD_Card.pptx)
 
-- [Download Block Breakout Board presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/Block_Breakout_Board.ppt)
+- [Download Block Breakout Board presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/pcb-build-it-series/Block_Breakout_Board/src/Block_Breakout_Board.ppt)
 
 ---
 

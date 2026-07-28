@@ -5,9 +5,9 @@ size: 720p
 transition: crossfade 0.1
 ---
 
-![](Introduction.jpg)
+![](../jpg/Introduction.jpg)
 
-(audio: podcasts-introduction.mp3)
+(audio: ../mp3/podcasts-introduction.mp3)
 
 > Materials 
 > Network Cable (CAT 6 preferred)
@@ -60,9 +60,9 @@ What about CAT 5e or even CAT 7? Do those work too?
 
 ---
 
-![](Introduction.jpg)
+![](../jpg/Introduction.jpg)
 
-(audio: podcasts-introduction.mp3)
+(audio: ../mp3/podcasts-introduction.mp3)
 
 (voice: Matt)
 CAT 5e will work, but CAT 6 is preferred.
@@ -113,7 +113,7 @@ Alright—let’s jump in.
 
 ---
 
-![](Adding_Boots.mp4)
+![](../mp4/Adding_Boots.mp4)
 
 > **Step 2: Add the boots NOW**  
 > Boots are optional, but provide protection
@@ -145,7 +145,7 @@ If you forget, you’re cutting off the connector and starting over.
 
 ---
 
-![](Preparing_Cable.mp4)
+![](../mp4/Preparing_Cable.mp4)
 
 > **Step 3: Expose the wires ** 
 > Score only the **outer jacket**, not the wires.  
@@ -179,7 +179,7 @@ it might work temporarily, but it will almost certainly fail later.
 
 ---
 
-![](Preparing_Plug.mp4)
+![](../mp4/Preparing_Plug.mp4)
 
 > **Step 4: Prepare the RJ45 connector **  
 > Gently lift the gold contacts for smooth wire insertion.  
@@ -221,7 +221,7 @@ or Kirk ding them out of order.
 
 ---
 
-![](Plug_Prep_Tool.mp4)
+![](../mp4/Plug_Prep_Tool.mp4)
 
 > ** Save time, make a connector -prep tool**  
 > Use eight 1mm wires or rods, aligned and glued inside of a spare connector 
@@ -272,7 +272,7 @@ Perfect.  Let's get to it.
 
 ---
 
-![](Preparing_Wires.mp4)
+![](../mp4/Preparing_Wires.mp4)
 
 > **Step 5: Prepare the wires**  
 > Separate the twisted pairs.  
@@ -341,7 +341,7 @@ the whole crimping and testing process goes much smoother.
 
 ---
 
-![](Arranging_Wires_part1.mp4)
+![](../mp4/Arranging_Wires_part1.mp4)
 
 > **Step 6: Arrange the wires**  
 > Place wires into the comb **in color pairs**.  
@@ -417,7 +417,7 @@ Any errors will get caught when testing later.
 
 ---
 
-![](Arranging_Wires_part2.mp4)
+![](../mp4/Arranging_Wires_part2.mp4)
 
 > **Test-fit the wires in the connector **  
 > Make sure the wires stay in order  
@@ -497,7 +497,7 @@ we’re ready for the crimping step.
 
 ---
 
-![](Crimping.mp4)
+![](../mp4/Crimping.mp4)
 
 > **Step 7: Crimp the connector**  
 > Slide the connector  onto the arranged wires.  
@@ -566,7 +566,7 @@ and we’ll be ready for the final test.
 
 ---
 
-![](Testing.mp4)
+![](../mp4/Testing.mp4)
 
 > **Step 8: Test the cable**  
 > Use a tester with a detachable remote.  
@@ -628,6 +628,6 @@ anywhere in your Fusion layout.
 
 ---
 
-![](Conclusion.jpg)
+![](../jpg/Conclusion.jpg)
 
-(audio: podcasts-conclusion.mp3)
+(audio: ../mp3/podcasts-conclusion.mp3)

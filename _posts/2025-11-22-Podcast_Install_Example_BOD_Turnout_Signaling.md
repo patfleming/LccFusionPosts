@@ -156,6 +156,6 @@ to a functioning, signal-driven block on the layout.
   
 - **LCC Fusion Podcasts Playlist:** https://www.youtube.com/playlist?list=PLg49NFDgDCLRS7j30iTitaWUlfIdiw0Wx
 
-- [Download presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/Example_Install_BOD_Turnout_Signal_Logic.ppt) 
+- [Download presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/pcb-to-layout-series/installation-example/src/Example_Install_BOD_Turnout_Signal_Logic.ppt) 
 
 ---

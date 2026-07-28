@@ -11,8 +11,8 @@ categories: Podcasts
 tags: [architecture, node-card, system-design]
 
 gallery:
-  - url: /assets/podcasts/images/Breakouts.jpg
-    image_path: /assets/podcasts/images/Breakouts.jpg
+  - url: /assets/podcasts/images/posters/LCC_Fusion_Hardware_.jpg
+    image_path: /assets/podcasts/images/posters/LCC_Fusion_Hardware_.jpg
     alt: "Breakout Boards"
     title: "Breakout Boards"
 ---
@@ -165,4 +165,4 @@ Fusion’s architecture is built to last — and built to grow.
   
 - **LCC Fusion Podcasts Playlist:** https://www.youtube.com/playlist?list=PLg49NFDgDCLRS7j30iTitaWUlfIdiw0Wx
   
-- [Download presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/LCC_Fusion_Hardware_Architecture_Overview.pptx) 
+- [Download presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/getting-started-series/hardware-architecture/src/LCC_Fusion_Hardware_Architecture_Overview.pptx) 

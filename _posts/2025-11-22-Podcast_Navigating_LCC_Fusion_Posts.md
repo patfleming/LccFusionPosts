@@ -11,7 +11,7 @@ categories: Podcasts
 tags: [navigation, onboarding, usability]
 
 gallery:
-  - url: /assets/podcasts/images/LCC_Fusion_Posts_Web.jpg
+  - url: /assets/podcasts/images/posters/LCC_Fusion_Posts_Web.jpg
     image_path: /assets/podcasts/images/posters/LCC_Fusion_Posts_Web.jpg
     alt: "LCC Fusion Posts"
     title: "LCC Fusion Posts"
@@ -110,5 +110,5 @@ helping you learn the Fusion system at your own pace.
 - **GitHub Repository:** https://github.com/patfleming/LccFusionProject  
 - **LCC Fusion Podcasts Playlist:** https://www.youtube.com/playlist?list=PLg49NFDgDCLRS7j30iTitaWUlfIdiw0Wx
 
-- [Download presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/LCC_Fusion_Posts_Website_Overview.pptx)
+- [Download presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/getting-started-series/navigating-lcc-fusion-posts/src/LCC_Fusion_Posts_Website_Overview.pptx)
 

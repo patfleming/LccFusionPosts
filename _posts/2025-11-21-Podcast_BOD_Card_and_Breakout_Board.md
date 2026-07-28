@@ -11,7 +11,7 @@ categories: Podcasts
 tags: [installation, bod, turnouts, signaling]
 
 gallery:
-  - url: /assets/podcasts/images/posters/BOD_Breakout_Board.jpg
+  - url: /assets/podcasts/images/posters/Block_Breakout_Board.jpg
     image_path: /assets/podcasts/images/posters/Block_Breakout_Board.jpg
     alt: "Block Breakout Board Podcast Presentation"
     title: "Block Breakout Board"
@@ -104,9 +104,9 @@ Together, the BOD Card and Block Breakout Board form a **clean, scalable, and pr
   
 - **LCC Fusion Podcasts Playlist:** https://www.youtube.com/playlist?list=PLg49NFDgDCLRS7j30iTitaWUlfIdiw0Wx
   
-- [Download BOD Card presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/podcasts/presentations/BOD_Card.pptx) 
+- [Download BOD Card presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/pcb-build-it-series/BOD_Card/src/BOD_Card.pptx) 
 
-- [Download Block Breakout Board presentation with speaker notes (PPT)]({{ site.baseurl }}/assets/presentations/podcasts/Block_Breakout_Board.ppt) 
+- [Download Block Breakout Board presentation with speaker notes (PPT)](https://raw.githubusercontent.com/patfleming/LccFusionPosts/main/podcasts/pcb-build-it-series/Block_Breakout_Board/src/Block_Breakout_Board.ppt) 
 
 ---
 

@@ -32,7 +32,7 @@ subtitles:
 
 Before we start any assembly, the first step is ordering the PCB.
 
-For the  the Gerber files are already prepared
+For the Node Card, the Gerber files are already prepared
 and ready to upload directly to a board fabrication service.
 
 (pause: 0.6)
@@ -44,7 +44,7 @@ and ready to upload directly to a board fabrication service.
 * JLCPCB recommended (low cost)
 ```
 
-We recommend using JLCPCB for fabrication for low cost quality PCBs.
+We recommend JLCPCB because it produces low-cost, high-quality PCBs.
 
 The Gerber files can be uploaded without modification,
 which avoids configuration errors
@@ -67,8 +67,6 @@ and place your order.
 (pause: 0.6)
 
 ---
-
-## Scene — Ordering the Solder Paste Stencil
 
 <!-- ========================================================= -->
 <!-- Scene: Ordering the Stencil                              -->
@@ -98,7 +96,7 @@ even if you build multiple boards later.
 
 ```md
 # Shipping Tip
-* Request custom minimal stencil size
+* Request a smaller custom stencil
 ```
 
 To reduce stencil shipping costs,
@@ -110,7 +108,7 @@ and significantly lowers shipping fees.
 
 (pause: 0.6)
 
-Once boards arrive, assembly begins
+> Once the boards arrive, assembly begins
 
 With the PCB and stencil ordered,
 we’re ready to begin the assembly process
@@ -139,7 +137,7 @@ Before applying solder paste, let’s set expectations.
 > Applying solder paste with a stencil
 
 This is not a skill test.
-You are following a repeatable process that the PCB was designed for.
+You are following a repeatable process built into the PCB design.
 
 Modern boards like the LCC Fusion Node Card are assembled using reflow, not by hand-soldering each surface-mount part individually.
 
@@ -155,11 +153,11 @@ Modern boards like the LCC Fusion Node Card are assembled using reflow, not by h
 
 The stencil is the most important tool in this step.
 
-Its job is controlling how much solder is applied to each pad and
-only on the pad.
+Its job is to control how much solder is applied to each pad
+and to keep it on the pads.
 
-That prevents solder bridges on fine-pitch parts, wasted paste, 
-and ensures reliable joints.
+This reduces solder bridges on fine-pitch parts, avoids wasted paste,
+and helps ensure reliable joints.
 
 Paste consistency and efficiency are the goals here, not speed.
 
@@ -175,7 +173,7 @@ Paste consistency and efficiency are the goals here, not speed.
 
 Before applying any paste, both the PCB and the stencil must be clean.
 
-Use isopropyl alcohol to remove oils and residue using a cloth.
+Use isopropyl alcohol and a lint-free cloth to remove oils and residue.
 
 Even light handling can affect how solder paste releases from the stencil.
 
@@ -199,7 +197,7 @@ Even light handling can affect how solder paste releases from the stencil.
 
 Stencil alignment is not guesswork.
 
-Place the PCB on a flat foam board, allowing for the use of push pins.
+Place the PCB on a flat foam board so push pins can be used.
 
 ---
 
@@ -211,8 +209,8 @@ First, use the pad cutouts to align the stencil directly over the PCB pads.
 
 Then, find the 1 millimeter tooling holes at the top and bottom.
 
-Place a push pin into each hole, locking the stencil in place so it cannot move while
-applying the paste.
+Place a push pin into each hole, locking the stencil in place
+so it cannot move while the paste is applied.
 
 (pause: 0.6)
 
@@ -246,7 +244,7 @@ saves time and reduces hand fatigue compared to pushing the syringe by hand.
 
 (font-size: 20)
 
-![contain](Apply_paste.mp4)
+![contain](Apply_Paste.mp4)
 
 ```md
 # Spreading Technique
@@ -255,7 +253,7 @@ saves time and reduces hand fatigue compared to pushing the syringe by hand.
 * Hold the stencil down on the PCB
 ```
 
-Place a small amounts of paste near one area of the stencil.
+Place a small amount of paste near one area of the stencil.
 You do not need to cover the entire board at once.
 
 (pause: 0.6)
@@ -268,7 +266,7 @@ and preserves clean pad definition.
 
 > Spread in smooth passes
 
-Use a spatula or scrapper to spread the paste across the stencil.
+Use a spatula or scraper to spread the paste across the stencil.
 
 Work in small sections and use one smooth pass per area.
 
@@ -297,7 +295,7 @@ Every stencil cutout should have paste, and it should be completely filled.
 
 If you see gaps, lightly spread paste again in that area.
 
-Work in small sections and scrap the cutout even with the stencil.
+Work in small sections and scrape the paste level with the top of the stencil.
 
 Excess paste can be reused to fill additional cutouts.
 
@@ -346,7 +344,7 @@ Sliding will smear the paste and create solder bridges.
 * Check for bridged pads
 * Touch up larger pads if needed
 * Restart if fine-pitch pads are missed
-* Paste pulls onto pads during reflow
+* Paste is pulled onto pads during reflow
 * Paste on silkscreen becomes solder balls
 ```
 
@@ -370,7 +368,7 @@ surface tension will pull it onto the pad when the solder melts.
 
 This means small placement imperfections on larger pads are usually fine.
 
-> Paste on silkscreen melts into solder balls
+> Paste on silkscreen forms solder balls
 
 But this only works when the paste is connected to a pad.
 
@@ -484,7 +482,7 @@ With the reference ready, we can now start placing components.
 
 Before placing resistors, it’s important to verify their values.
 
-Resistors used in LCC Fusion are 1206 size,
+Resistors used in LCC Fusion use the 1206 package size,
 and they are marked with a three-digit code on top of the package.
 
 (pause: 0.6)
@@ -523,7 +521,7 @@ Integrated circuits are clearly marked and will be covered separately.
 * Use a picker tool
 * Place gently into paste
 * Minor adjustments are OK
-* Reflow auto aligns parts on pads
+* Reflow automatically aligns parts on pads
 ```
 
 > Pick, place, and let reflow do the work
@@ -736,13 +734,13 @@ so they are lightly tacked in place during the reflow process.
 
 (pause: 0.6)
 
-> Suspend the PCB first using Helping Hands Clamp
+> Suspend the PCB using the helping-hands clamp
 
 Attach the helping hands tool to a metal plate.
 
-Insert the PCB card edge connector end into a helping hands tool.
+Clamp the PCB by its card-edge connector end.
 
-The PCB must be suspended because the PTH pins 
+The PCB must be suspended because the PTH pins
 extend below the board.
 
 (pause: 0.6)
@@ -777,8 +775,8 @@ and how each one is oriented.
 > Don't solder the PTH pins at this time
 
 This tacking step prevents components from falling out
-when the board is flipped over after 
-reflowing for final pin soldering.
+when the board is flipped over after reflow
+for final pin soldering.
 
 (pause: 0.6)
 
@@ -816,8 +814,8 @@ and the PTH pins are not disturbed.
 
 (pause: 0.6)
 
-> Oven settings - BROIL @ 280 deg F (138 deg C)
-> Low temp solder paste is 138 deg C  
+> Oven setting: BROIL at 280 °F (138 °C)
+> Low-temperature solder paste melts at 138 °C
 
 Set the countertop oven to BROIL
 so the heat comes from the top of the PCB.
@@ -896,7 +894,7 @@ cleaning the tip frequently.
 > Reposition SMD parts using hot air gun
 
 If an SMD part needs to be repositioned or reseated,
-use a soldering station hot air gun to briefly reheat the area
+use the soldering station's hot-air gun to briefly reheat the area
 and allow the component to settle back onto its pads.
 
 (pause: 0.6)
@@ -931,11 +929,11 @@ This holds the board steady and keeps pins accessible.
 > Soldering pencil with solder wire
 > Oblique soldering tip technique
 
-Use an oblique soldering tip, holds solder on tip better.
-Place the hot tip at 45 deg angle so it contacts both the pin and the plated ring.
+Use an oblique soldering tip because it holds solder better.
+Place the hot tip at a 45-degree angle so it contacts both the pin and the plated ring.
 
 Apply solder to the tip and pin,
-then remove the solder wire and tip, while pulling up slightly
+then remove the solder wire and pull the tip upward slightly
 to form the joint at the ring and along the pin.
 
 (pause: 0.6)
@@ -954,9 +952,9 @@ to form the joint at the ring and along the pin.
 
 Repeat for every pin.
 If a solder bridge forms, wipe it away with the hot tip,
-cleaning the tip frequently.  
+cleaning the tip frequently.
 
-Oblique soldering tip works well for this.
+An oblique soldering tip works well for this.
 
 (pause: 0.6)
 
@@ -971,7 +969,7 @@ and all joints are clean.
 
 > Clean with electrical cleaner
 
-Optionally, clean the PCB by spraying with an electrical contact 
+Optionally, clean the PCB by spraying it with an electrical contact
 cleaner to remove any resin and residue.
 
 (pause: 0.6)

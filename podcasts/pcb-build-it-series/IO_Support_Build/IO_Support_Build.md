@@ -22,14 +22,14 @@ subtitles:
 
 ```md
 # Build I/O Cards
-* Assumes prior build videos
+* Prior build videos required
 * Same process, different PCBs
 ```
 
-> This video builds additional LCC Fusion I/O cards
+> Build additional LCC Fusion I/O boards
 
-This video covers the build of several LCC Fusion I/O-related PCBs and
-the Node Bus Hub required by the cards.
+This video covers the assembly of several LCC Fusion I/O Card PCBs and
+the Node Bus Hub that connects them.
 
 (pause: 0.6)
 
@@ -90,9 +90,9 @@ and the level of care required during placement.
 * Node Bus Hub: REQUIRED
 ```
 
-> Stencils required for PCBs with ICs with fine pitch ICs
+> Stencils are required for PCBs with fine-pitch ICs
 
-Both the PWM Card and the BOD Card include ICs with small pads with fine-pitch.
+Both the PWM Card and the BOD Card include fine-pitch ICs with small solder pads.
 
 (pause: 0.6)
 
@@ -129,7 +129,7 @@ directly to JLCPCB.
 
 (pause: 0.6)
 
-When ordering PWM or BOD cards,
+When ordering PWM or BOD Cards,
 order the stencil at the same time.
 
 (pause: 0.6)
@@ -152,13 +152,13 @@ to reduce shipping costs.
 
 ```md
 # Applying Solder Paste
-* Stencil required for PWM & BOD
+* Stencil required for PWM and BOD Cards
 * Direct paste for breakout boards
 ```
 
 > Two paste application paths
 
-For PWM and BOD cards,
+For PWM and BOD Cards,
 apply solder paste using the stencil, just as with the Node Card.
 
 (pause: 0.6)
@@ -172,8 +172,8 @@ These PCBs are intentionally forgiving.
 
 (pause: 0.6)
 
-Some breakout boards offer multiple connector options—
-always follow the step-by-step build documentation.
+Some breakout boards offer multiple connector options,
+so always follow the step-by-step build documentation.
 
 (pause: 0.6)
 
@@ -189,22 +189,21 @@ always follow the step-by-step build documentation.
 
 ```md
 # Component Placement
-* Extra care on fine-pitch ICs
-   - Prep IC pins: flatten and align before placement
+* Extra care for fine-pitch ICs
+   - Prepare IC pins: flatten and align before placement
    - Verify all pins contact paste
 * Normal care on breakout boards
 ```
 
-> Check IC pins carefully
-> Fix pin alignment
+> Check and align IC pins carefully
 
-The PCBs with ICs require extra care preparing them and
-during fine-pitch IC placement.
+The PCBs with fine-pitch ICs require extra care during
+pin preparation and component placement.
 
 (pause: 0.6)
 
-Prepare IC pins by straightening and flatting them, 
-align carefully over paste, and take your time.
+Prepare the IC pins by straightening and flattening them.
+Align each IC carefully over the solder paste and take your time.
 
 (pause: 0.6)
 
@@ -225,14 +224,14 @@ and are much more forgiving.
 
 ```md
 # Reflow
- * Same reflow process for all boards
- * Set oven to BROIL
- * Heat until oven reaches 280 °F
- * Turn off oven and allow slow cool
- * Multiple boards can be reflowed together
+* Same reflow process for all boards
+* Set oven to BROIL
+* Heat until oven reaches 280 °F
+* Turn off oven and allow a slow cool-down
+* Multiple boards can be reflowed together
 ```
 
-Reflow is identical for all PCBs
+> Use the same reflow process for all PCBs
 
 Reflow is done exactly as shown
 in the Reflow Introduction video.
@@ -271,13 +270,13 @@ Inspect all PCBs after reflow.
 
 (pause: 0.6)
 
-On PWM and BOD cards,
+On PWM and BOD Cards,
 closely inspect fine-pitch IC pins for bridges or lifted pins.
 
 (pause: 0.6)
 
-Reflow tacks PTH pins in place,
-making hand soldering easier and cleaner.
+The reflow process can tack PTH components in place,
+making the final hand soldering easier and cleaner.
 
 (pause: 0.6)
 
@@ -300,7 +299,7 @@ making hand soldering easier and cleaner.
 
 > Build confidence comes from repeatability
 
-All LCC Fusion I/O cards follow the same build process.
+All these LCC Fusion I/O boards follow the same build process.
 
 (pause: 0.6)
 
